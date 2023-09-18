@@ -1,0 +1,356 @@
+*{
+    margin: 0px;
+}
+/* body{
+z} */
+.blue{
+    height: 560px;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+/* .link{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.nav {
+    display: flex;
+    
+    position: absolute;
+    top: 30px;
+    margin-left: 130px;
+}
+a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(127, 125, 125);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link .img{
+    position: absolute;
+    top: 8px;
+   
+}
+
+.right_nav img{
+    position: absolute;
+    right: 90px;
+    top: 40px;
+}
+.right_nav p{
+    position: absolute;
+    top: 44px;
+    right: 112px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.img1{
+    width: 500px;
+    position: absolute;
+    top: 60px;
+    right: 1px;
+}
+.img2{
+    width: 210px;
+    position: absolute;
+    top: 90px;
+    right: 170px;
+}
+.img3{
+    width: 300px;
+    position: absolute;
+    top: 360px;
+    right: 120px;
+
+}
+.img4{
+    width: 1350px;
+    position: absolute;
+    right: 250px;
+    top: 390px;
+}
+.first .text{
+    position: absolute;
+    top: 230px;
+    left: 230px;
+}
+.first .text h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+strong{
+    color: rgb(238, 0, 255);
+}
+.first .text p{
+    color: rgb(162, 162, 162);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle{
+    position: relative;
+    padding-bottom: 1300px;
+}
+.middle .second_section{
+    width: 1100px;
+    position: absolute;
+    left: 300px;
+}
+.middle .div1 img{
+    width: 140px;
+    position: absolute;
+    left: 220px;
+    top: 95px;
+}
+.middle .div1 h1{
+    font-size: 18px;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 216px;
+    top: 215px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div1 .p1{
+    font-size:15px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 190px;
+    top: 240px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div1 .p2{
+    font-size:15px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 176px;
+    top: 258px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div2 img{
+    width: 140px;
+    position: absolute;
+    left: 750px;
+    top: 270px;
+}
+.middle .div2 h1{
+    font-size: 18px;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 740px;
+    top: 380px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div2 .p1{
+    font-size:15px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 680px;
+    top: 407px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div2 .p2{
+    font-size:15px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 715px;
+    top: 425px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div3 img{
+    width: 340px;
+    position: absolute;
+    left: 140px;
+    top: 550px;
+}
+.middle .div3 p{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 202px;
+    top: 655px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.middle .div3 h1{
+    font-size:30px ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 200px;
+    top: 670px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div4 img{
+    width: 200px;
+    position: absolute;
+    left: 1140px;
+    top: 570px;
+}
+.middle .div4 h1{
+    font-size:25px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 1190px;
+    top: 713px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div4 .p1{
+    font-size:15px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 1110px;
+    top: 755px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div4 .p2{
+    font-size:15px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 1103px;
+    top: 774px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div5 img{
+    width: 140px;
+    position: absolute;
+    left: 260px;
+    top: 990px;
+}
+
+.middle .div6 img{
+    width: 340px;
+    position: absolute;
+    left: 600px;
+    top: 870px;
+}
+
+.middle .div6 h1{
+    font-size:18px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left:680px;
+    top: 1120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div6 .p1{
+    font-size:15px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 690px;
+    top: 1155px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div6 .p2{
+    font-size:15px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 690px;
+    top: 1175px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div6 .p3{
+    font-size:15px ;
+    color: rgb(126, 119, 119);
+    position: absolute;
+    left: 725px;
+    top: 1195px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle .div7 img{
+    width: 160px;
+    position: absolute;
+    right: 220px;
+    top: 990px;
+}
+
+
+ .last .last_image{
+    height: 500px;
+       
+ }  
+    
+
+.last .last_div div .last_button1{
+    width: 100px;
+    position: absolute;
+    top: 2300px;
+    left: 150px;
+    border-radius: 20px;
+}
+.last nav{
+    width: 30%;
+    margin-left: 130px;
+    position: absolute;
+    top: 2430px;
+}
+
+ .last nav a{
+   color: aliceblue;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.last .last_div div .kkk{
+    width: 700px;
+    position: absolute;
+    left: 750px;
+    top: 2000px;
+}
+.apple{
+    width: 20px;
+    position: absolute;
+    top: 2303px;
+    left: 160px;
+}
+.last .last_div div .last_button2{
+    width: 100px;
+    position: absolute;
+    top: 2300px;
+    left: 270px;
+    border-radius: 20px;
+}
+.playstore{
+    width: 20px;
+    position: absolute;
+    top: 2305px;
+    left: 280px;
+} 
+.last .last_div .last_h1{
+    color: rgb(109, 102, 102);
+    font-size: 15px;
+    position: absolute;
+    top: 2306px;
+    left: 180px;
+}
+.last .last_div .last_h2{
+    font-size: 15px;
+    color: rgb(109, 102, 102);
+    position: absolute;
+    top: 2306px;
+    left: 300px;
+}
+.last .last_div .instagram{
+    width: 20px;
+    position: absolute;
+    top: 2370px;
+    left: 160px;
+}
+.last .last_div .whatsapp{
+    width: 20px;
+    position: absolute;
+    top: 2370px;
+    left: 200px;
+}
+.last .last_div .facebook{
+    width: 15px;
+    position: absolute;
+    top: 2370px;
+    left: 240px;
+}
+
